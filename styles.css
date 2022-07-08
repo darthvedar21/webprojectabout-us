@@ -1,12 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;    
+    box-sizing: border-box;
 }
-body{
-    font-family: 'Roboto', sans-serif;   
+
+body {
+    font-family: 'Roboto', sans-serif;
 }
-header{
+
+header {
     width: 100vw;
     height: 100vh;
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/On_top_of_Sigir%C3%AEya%27s_Lion_Rock_%2836399791715%29.jpg/1920px-On_top_of_Sigir%C3%AEya%27s_Lion_Rock_%2836399791715%29.jpg');
@@ -17,28 +19,31 @@ header{
     justify-content: center;
 }
 
-.header-content{
+.header-content {
     margin-top: 200px;
     color: whitesmoke;
     text-align: center;
 }
-.header-content h3{
-    font-size: 5vmin;
+
+.header-content h3 {
+    font-size: 4vmin;
     font-weight: 68px;
 }
-.line{
+
+.line {
     width: 150px;
     height: 4px;
     background: #fc036b;
     margin: 10px auto;
     border-radius: 5px;
 }
-.header-content h2{
-    font-size: 10vmin;
+
+.header-content h2 {
+    font-size: 13vmin;
     font-weight: 70px;
 }
 
-.dis p{
+.dis p {
     margin: 30px 30px;
     padding: 10px 10px;
     color: black;
@@ -47,20 +52,71 @@ header{
 }
 
 /* Land of Sri Lanka */
-section{
+section {
     width: 80%;
     margin: 80px auto;
 }
-.title{
+
+.title {
     text-align: center;
     font-size: 5vmin;
     color: #2f3640;
 }
-.title p{
+
+.title p {
     margin-top: 30px;
     font-weight: bold;
     font-size: 4vmin;
     align-items: center;
     justify-content: center;
 }
+
 /* Land of Sri Lanka */
+
+/*Explore Sri Lanka*/
+.explore {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://cdn.pixabay.com/photo/2021/02/02/18/59/temple-5974937_1280.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.explore-Srilanka {
+    width: 40%;
+    margin-top: 25%;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+}
+
+.explore-Srilanka h2 {
+    font-size: 9vmin;
+}
+
+.explore-Srilanka line {
+    margin-bottom: 50px;
+}
+
+.ctn {
+    padding: 8px 15px;
+    margin: 20px 20px;
+    background: #fc036b;
+    border-radius: 20px;
+    color: whitesmoke;
+}
+
+.header-content p {
+    color: rgb(221, 221, 221);
+}
+
+.explore-Srilanka ctn {
+    margin-top: 40px;
+}
+
+/*Explore Sri Lanka*/
